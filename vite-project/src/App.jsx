@@ -30,7 +30,7 @@ const App = () => {
     setqueryLoading(false);
   };
 
-  // Function to group trends in sets of 3 lines with a trendingX label
+
   const groupTrends = (trendText) => {
     const parts = trendText.split("\n").filter((item) => item.trim() !== "");
     let groupedTrends = [];
